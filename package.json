@@ -32,5 +32,6 @@
   "proxy": "http://localhost:8080",
   "devDependencies": {
     "mock-local-storage": "^1.1.7"
-  }
+  },
+  "homepage" : "https://lit-island-21480.herokuapp.com",
 }
