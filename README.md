@@ -6,7 +6,7 @@ To view the demo version repo, go to (https://github.com/JasminTrotter/student-p
 ## About
 
 A responsive web app where students can purchase classes and view a history of their past purchases. Built with React and Redux. Work in progress. See the live app [here](https://www.balletbodybyjasmin.app).
-For a demo, see tbe demo version live app [here](https://student-portal-balletbody.herokuapp.com/).
+For a demo, see the demo version live app [here](https://student-portal-balletbody.herokuapp.com/).
 * username: DemoUser
 * password: ballerinasRcool
 to test card processing functionality, use card number 4242 4242 4242 4242.
