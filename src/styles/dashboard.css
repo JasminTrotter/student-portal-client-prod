@@ -1,0 +1,49 @@
+.dashboard {
+	width: 100vw;
+	margin: auto;
+	position: static;
+}
+
+.panels {
+	width: 50%;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	margin-top: 25px;
+
+}
+
+.panel {
+	margin: 30px;
+	border-left: #BDBDBD 2px solid;
+	width: 400px;
+}
+
+.purchase-history-list {
+	list-style: none;
+}
+
+.purchase-history-list li {
+	margin: 10px;
+}
+
+.product-select-input {
+	justify-content: left;
+	cursor: pointer;
+	text-align: left;
+}
+
+.purchase-history-div, .product-select-form {
+	margin-left: 10px;
+}
+
+@media only screen and (max-width: 320px) {
+	.panels {
+		width: 100vw;
+		columns: 1;
+	}
+	.panel {
+		width: 100%;
+		display: block;
+	}
+}
