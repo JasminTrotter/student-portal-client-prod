@@ -41,6 +41,7 @@ const storeAuthInfo = (authToken, dispatch) => {
     dispatch(setAuthToken(authToken));
     dispatch(authSuccess(user));
     saveFirstName(user.firstName);
+    saveLastName(user.lastName);
     saveUserId(user.id);
     saveAuthToken(authToken);
 
