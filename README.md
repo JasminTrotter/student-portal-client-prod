@@ -1,10 +1,12 @@
 # [Student Portal](https://student-portal-balletbody.herokuapp.com/)
 
-A responsive web app where students can purchase classes and view a history of their past purchases. Built with React and Redux. Work in progress. See the live app [here](https://student-portal-balletbody.herokuapp.com/).
-For a demo, use the login credentials...
-* username: DemoUser
-* password: ballerinasRcool
-to test card processing functionality, use card number 4242 4242 4242 4242.
+This is the production version application used by [Ballet Body by Jasmin](https://www.balletbodybyjasmin.com).
+To view the demo version repo, go to (https://github.com/JasminTrotter/student-portal-client)
+
+## About
+
+A responsive web app where students can purchase classes and view a history of their past purchases. Built with React and Redux. Work in progress. See the live app [here](https://www.balletbodybyjasmin.app).
+For a demo, see the demo version live app [here](https://student-portal-balletbody.herokuapp.com/).
 
 This project was bootstrapped with Create React App. Student Portal's server side code (built with Node.js and MongoDB) can be found in [this repository](https://github.com/JasminTrotter/student-portal-api).
 
