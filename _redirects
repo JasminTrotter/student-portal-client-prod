@@ -1,4 +1,4 @@
 # Redirect default Netlify subdomain to primary domain
-http://balletbodybyjasmin.app	https://www.balletbodybyjasmin.app
-http://www.balletbodybyjasmin.app	https://www.balletbodybyjasmin.app
-https://balletbodybyjasmin.app	https://www.balletbodybyjasmin.app
+http://balletbodybyjasmin.app/*	https://www.balletbodybyjasmin.app/:splat 301!
+http://www.balletbodybyjasmin.app/*	https://www.balletbodybyjasmin.app/:splat 301!
+https://balletbodybyjasmin.app/*	https://www.balletbodybyjasmin.app/:splat 301!
