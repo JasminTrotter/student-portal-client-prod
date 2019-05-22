@@ -40,11 +40,11 @@ export class ProductSelectForm extends React.Component {
 		                   	required={true}
 		                    type="radio"
 		                    name="price"
-		                    label="8 Classes - $120"
-		                    value={120}
-		                    onChange={(event) => this.setState({ value: 12000, dollarAmount: '120', classAmount: '8 classes'})}
+		                    label="8 Classes - $170"
+		                    value={170}
+		                    onChange={(event) => this.setState({ value: 17000, dollarAmount: '170', classAmount: '8 classes'})}
 		                />
-		                8 Classes - $120</label>
+		                8 Classes - $170</label>
 	                </div>
 	             	
 	            
@@ -55,11 +55,11 @@ export class ProductSelectForm extends React.Component {
 		               		required={true}
 		                    type="radio"
 		                    name="price"
-		                    label="4 Classes - $62"
-		                    value={62}
-		                    onChange={(event) => this.setState({ value: 6200, dollarAmount: '62', classAmount: '4 classes'})}
+		                    label="4 Classes - $92"
+		                    value={92}
+		                    onChange={(event) => this.setState({ value: 9200, dollarAmount: '92', classAmount: '4 classes'})}
 		                />
-	                	4 Classes - $62</label>
+	                	4 Classes - $92</label>
 	                </div>
 
 					<div className="product-select-input">
@@ -69,12 +69,12 @@ export class ProductSelectForm extends React.Component {
 		                  	required={true}
 		                    type="radio"
 		                    name="price"
-		                    label="2 Classes - $32"
-		                    value={32}
-		                    onChange={(event) => this.setState({ value: 3200, dollarAmount: '32', classAmount: '2 classes'})}
+		                    label="2 Classes - $48"
+		                    value={48}
+		                    onChange={(event) => this.setState({ value: 4800, dollarAmount: '48', classAmount: '2 classes'})}
 
 		                />
-	                	2 Classes - $32</label>
+	                	2 Classes - $48</label>
 	                </div>
 
 	                <div className="product-select-input">
@@ -84,11 +84,11 @@ export class ProductSelectForm extends React.Component {
 		                 	required={true}
 		                    type="radio"
 		                    name="price"
-		                    label="1 Class - $18"
-		                    value={18}
-		                    onChange={(event) => this.setState({ value: 1800, dollarAmount: '18', classAmount: '1 class' })}
+		                    label="1 Class - $25"
+		                    value={25}
+		                    onChange={(event) => this.setState({ value: 2500, dollarAmount: '25', classAmount: '1 class' })}
 		                />
-		                1 Class - $18</label>
+		                1 Class - $25</label>
 	                </div>
 
 		        <button type="submit">Submit</button>
